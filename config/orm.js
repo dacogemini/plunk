@@ -2,7 +2,7 @@
 // Import MySQL connection.
 var connection = require("../config/connection.js");
 
-// Helper function for SQL syntax.
+// Helper function for generating mySQL syntax.
 // Let's say we want to pass 3 values into the mySQL query.
 // In order to write the query, we need 3 question marks.
 // The above helper function loops through and creates an array of question marks - ["?", "?", "?"] - and turns it into a string.
@@ -22,7 +22,7 @@ var objToSql = function(ob) {
   var arr = [];
 
   // loop through the keys and push the key/value as a string int arr
-  for (var key in ob) {
+  for (var key in ob) { // in loop
     var value = ob[key];
     // check to skip hidden properties
     if (Object.hasOwnProperty.call(ob, key)) {

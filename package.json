@@ -27,10 +27,13 @@
     },
     "dependencies": {
         "bootstrap": "4.0.0",
+        "cheerio": "^1.0.0-rc.2",
         "font-awesome": "4.7.0",
         "jquery": "3.3.1",
         "jquery.easing": "^1.4.1",
-        "magnific-popup": "^1.1.0"
+        "magnific-popup": "^1.1.0",
+        "mongodb": "^3.0.5",
+        "mongojs": "^2.5.0"
     },
     "devDependencies": {
         "browser-sync": "2.23.6",

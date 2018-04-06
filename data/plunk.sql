@@ -1,7 +1,7 @@
 
-CREATE DATABASE plunk_db;
-USE plunk_db;
-CREATE TABLE IF NOT EXISTS `plunk_db` (
+CREATE DATABASE jager_db;
+USE jager_db;
+CREATE TABLE IF NOT EXISTS `jager_db` (
   `id` int(11) NOT NULL,
   `category` varchar(200) NOT NULL,
   `description` varchar(200) NOT NULL,
@@ -10,8 +10,8 @@ CREATE TABLE IF NOT EXISTS `plunk_db` (
   `interesting_facts` varchar(200) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
-ALTER TABLE `plunk_db` ADD PRIMARY KEY (`id`);
-ALTER TABLE `plunk_db` MODIFY `id` int(11) NOT NULL AUTO_INCREMENT;
+ALTER TABLE `jager_db` ADD PRIMARY KEY (`id`);
+ALTER TABLE `jager_db` MODIFY `id` int(11) NOT NULL AUTO_INCREMENT;
 
 
 
